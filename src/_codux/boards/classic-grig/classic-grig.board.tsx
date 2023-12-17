@@ -5,4 +5,8 @@ export default createBoard({
     name: 'ClassicGrig',
     Board: () => <ClassicGrig />,
     isSnippet: true,
+    environmentProps: {
+        canvasWidth: 397,
+        canvasHeight: 180
+    }
 });

@@ -10,5 +10,14 @@ export interface ClassicGrigProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const ClassicGrig = ({ className }: ClassicGrigProps) => {
-    return <div className={classNames(styles.root, className)}>ClassicGrig</div>;
+    return <div className={classNames(styles.root, className)}>
+        <div className={styles.header}>Header</div>
+        <div>
+            ClassicGrig
+        </div>
+        <div>
+            ClassicGrig
+        </div>
+        <div className={styles.footer}>Footer</div>
+    </div>;
 };
